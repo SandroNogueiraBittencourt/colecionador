@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Coleções</title>
+    <link rel="stylesheet" href="../css/cabecalho.css">
+    <link rel="stylesheet" href="../css/colecao.css">
+    <script src="../js/colecao.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="/index.html"> <img src="../img/tiopatinhas.png" alt="" id="imagem-logo"> </a>
+        <nav>
+            <ul>
+                <li><a href="/modules/edicao.html">Usuário</a></li>
+                <li><a href="/modules/colecao.html">Coleção</a></li>
+                <li><a href="/modules/dashboard.html">Dashboard</a></li>
+                <li><a href="/modules/login.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <div class="exibir">
+        <a id="exibir">Mostrar</a>
+    </div>
+    <div class="principal">
+    <div class="formulario">
+        <h2>Colecionável</h2>
+        <form id="formulario" data-action="cadastrar">
+            <input type="hidden" id="idMoeda" name="idMoeda" />
+            <div class="form-group">
+                <label for="nome"></label>
+                <input type="text" id="nome" name="nome" placeholder="Nome:" required>
+            </div>
+            <div class="form-group">
+                <label for="pais"></label>
+                <input type="text" id="pais" name="pais" placeholder="País:" required>
+            </div>
+            <div class="form-group">
+                <label for="ano"></label>
+                <input type="number" id="ano" name="ano" placeholder="Ano:" required>
+            </div>
+            <div class="form-group">
+                <label for="valor"></label>
+                <input type="number" id="valor" name="valor" step="0.01" placeholder="Valor R$:" required>
+            </div>
+            <div class="form-group">
+                <label for="detalhes"></label>
+                <textarea id="detalhes" name="detalhes" placeholder="Detalhes:" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="file" id="arquivo" name="arquivo" accept="image/*" hidden>
+                <label for="arquivo" class="file-label">Selecionar Arquivo</label>
+                <span id="nome-arquivo">Nenhum arquivo selecionado</span>
+            </div>
+            <div>
+                <input class="botao" type="submit" value="Gravar">
+                <input class="botao" type="button" value="Limpar" id="limpar">
+            </div>
+        </form>
+    </div>  
+    </div>
+    <div class="table-container">
+    <table class="table-border">
+        <caption class="titulo-colecao">COLEÇÃO</caption>
+        <tr>
+            <th>IMAGEM</th>
+            <th>ID</th>
+            <th>NOME</th>
+            <th>PAÍS</th>
+            <th>ANO</th>
+            <th>VALOR</th>
+            <th>DETALHES</th>
+            <th>AÇÕES</th>
+        </tr>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+    </div>
+</main>
+</body>
+</html>

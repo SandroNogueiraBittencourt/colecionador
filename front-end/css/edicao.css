@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap'); 
+:root { 
+    --cor-fundo: #C6C6C6; 
+    --cor-modal: rgba(0,0,0,0.5); 
+    --cor-sombra-modal: rgba(0,0,0,0.6); 
+    --cor-fonte: #03e9f4; 
+    --cor-branco: #FFFFFF; 
+    --cor-preto: #000000; 
+    --cor-linha-principal: #FFFAFA; 
+    --cor-linha-secundaria: #F5F5F5; 
+    --fonte: "SUSE", system-ui; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte);
+}
+#imagem-logo {
+    width: 100px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: var(--cor-sombra-modal);
+    height: 100px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 45px;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: var(--cor-preto);
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+}
+nav ul li a:hover {
+    background-color: var(--cor-fonte);
+    color: var(--cor-preto);
+    transition: all 0.1s ease;
+}
+nav ul li a:focus {
+    background-color: var(--cor-fonte);
+    color: var(--cor-preto);
+    transition: all 0.4s ease;
+}
+body {
+    background-color: var(--cor-fundo);
+}
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-modal);
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px var(--cor-sombra-modal);
+    width: 550px;
+    height: 480px;
+    margin-bottom: 30px;
+}
+.inputs h2 {
+    color: var(--cor-branco);
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.inputs input {
+    width: 95%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 2px solid var(--cor-linha-principal);
+    background: none;
+    color: var(--cor-branco);
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.inputs label {
+    display: block;
+    text-align: left;
+    color: var(--cor-fonte);
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+}
+.inputs input::placeholder {
+    color: transparent;
+}
+.inputs input:focus {
+    border-bottom: 2px solid var(--cor-fonte);
+}
+.inputs button {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cor-fonte);
+    color: var(--cor-modal);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    width: 440px;
+}
+.inputs button:hover {
+    background-color: #02cde1;
+}
+#deletarUsuario {
+    display: inline; /* Faz o botão se comportar como texto */
+    color: var(--cor-modal); 
+    text-decoration: none; 
+    cursor: pointer; 
+    font-size: 14px; 
+    text-align: center;
+    border: none; 
+    background: none; 
+    padding: 0; 
+    outline: none; 
+}

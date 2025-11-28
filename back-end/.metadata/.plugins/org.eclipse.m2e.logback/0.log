@@ -1,0 +1,84 @@
+2025-11-28 12:06:08,350 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-11-28 12:07:11,609 [Worker-12: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: colecionador:colecionador:0.0.1-SNAPSHOT @ C:\Projeto\colecionador\back-end\colecionador\pom.xml.
+2025-11-28 12:07:12,866 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:07:12,867 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\main\resources
+2025-11-28 12:07:12,874 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:07:12,875 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\test\resources
+2025-11-28 12:07:13,557 [Worker-12: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /colecionador/src/main/java
+2025-11-28 12:07:13,562 [Worker-12: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /colecionador/src/main/resources
+2025-11-28 12:07:13,563 [Worker-12: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /colecionador/src/test/java
+2025-11-28 12:07:13,564 [Worker-12: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /colecionador/src/test/resources
+2025-11-28 12:07:13,989 [Worker-12: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-11-28 12:07:14,383 [Worker-12: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: colecionador:colecionador:0.0.1-SNAPSHOT @ C:\Projeto\colecionador\back-end\colecionador\pom.xml.
+2025-11-28 12:07:15,018 [Worker-12: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /colecionador/src/main/java
+2025-11-28 12:07:15,022 [Worker-12: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /colecionador/src/main/resources
+2025-11-28 12:07:15,023 [Worker-12: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /colecionador/src/test/java
+2025-11-28 12:07:15,024 [Worker-12: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /colecionador/src/test/resources
+2025-11-28 12:07:15,206 [Worker-12: Enabling Maven Dependency Management] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for colecionador
+2025-11-28 12:07:15,228 [Worker-12: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2025-11-28 12:07:15,403 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:07:15,405 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\main\resources
+2025-11-28 12:07:15,411 [Worker-26: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:07:15,413 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\test\resources
+2025-11-28 12:07:15,413 [Worker-26: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of colecionador
+2025-11-28 12:07:15,414 [Worker-26: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for colecionador
+2025-11-28 12:09:29,422 [Worker-4: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:09:29,423 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\main\resources
+2025-11-28 12:09:29,425 [Worker-4: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:09:29,426 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\test\resources
+2025-11-28 12:09:38,883 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:09:38,884 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\main\resources
+2025-11-28 12:09:38,886 [Worker-12: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:09:38,887 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\test\resources
+2025-11-28 12:09:48,482 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:09:48,483 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\main\resources
+2025-11-28 12:09:48,486 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:09:48,487 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\test\resources
+2025-11-28 12:09:58,361 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:09:58,363 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\main\resources
+2025-11-28 12:09:58,365 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:09:58,366 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\test\resources
+2025-11-28 12:10:08,778 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:10:08,779 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\main\resources
+2025-11-28 12:10:08,781 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:10:08,782 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\test\resources
+2025-11-28 12:11:03,647 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:11:03,648 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\main\resources
+2025-11-28 12:11:03,651 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:11:03,653 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\test\resources
+2025-11-28 12:11:13,006 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:11:13,011 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\main\resources
+2025-11-28 12:11:13,034 [Worker-13: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:11:13,039 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\test\resources
+2025-11-28 12:11:31,801 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:11:31,802 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\main\resources
+2025-11-28 12:11:31,804 [Worker-5: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:11:31,807 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\test\resources
+2025-11-28 12:11:51,992 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: colecionador:colecionador:0.0.1-SNAPSHOT @ C:\Projeto\colecionador\back-end\colecionador\pom.xml.
+2025-11-28 12:11:52,537 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:11:52,539 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\main\resources
+2025-11-28 12:11:52,543 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:11:52,544 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\test\resources
+2025-11-28 12:11:52,545 [Worker-30: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of colecionador
+2025-11-28 12:11:52,545 [Worker-30: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for colecionador
+2025-11-28 12:12:57,766 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: colecionador:colecionador:0.0.1-SNAPSHOT @ C:\Projeto\colecionador\back-end\colecionador\pom.xml.
+2025-11-28 12:12:58,629 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:12:58,630 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\main\resources
+2025-11-28 12:12:58,633 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:12:58,634 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\test\resources
+2025-11-28 12:12:58,635 [Worker-2: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of colecionador
+2025-11-28 12:12:58,635 [Worker-2: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for colecionador
+2025-11-28 12:13:18,987 [Worker-27: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-11-28 12:13:19,258 [Worker-27: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: colecionador:colecionador:0.0.1-SNAPSHOT @ C:\Projeto\colecionador\back-end\colecionador\pom.xml.
+2025-11-28 12:13:19,884 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /colecionador/src/main/java
+2025-11-28 12:13:19,885 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /colecionador/src/main/resources
+2025-11-28 12:13:19,886 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /colecionador/src/test/java
+2025-11-28 12:13:19,887 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /colecionador/src/test/resources
+2025-11-28 12:13:20,219 [Worker-27: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for colecionador
+2025-11-28 12:13:20,240 [Worker-27: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2025-11-28 12:13:20,501 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:13:20,502 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\main\resources
+2025-11-28 12:13:20,506 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-11-28 12:13:20,507 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projeto\colecionador\back-end\colecionador\src\test\resources
+2025-11-28 12:13:20,508 [Worker-10: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of colecionador
+2025-11-28 12:13:20,508 [Worker-10: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for colecionador

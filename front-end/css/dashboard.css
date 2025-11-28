@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+:root {
+    --cor-fundo: #C6C6C6;
+    --cor-modal: rgba(0, 0, 0, 0.5);
+    --cor-sombra-modal: rgba(0, 0, 0, 0.6);
+    --cor-fonte: #03e9f4;
+    --cor-branco: #FFFFFF;
+    --cor-preto: #000000;
+    --fonte: "SUSE", system-ui;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte);
+}
+
+#imagem-logo {
+    width: 100px;
+}
+
+body {
+    background: var(--cor-fundo);
+    color: var(--cor-preto);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: var(--cor-sombra-modal);
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 45px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--cor-preto);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: var(--cor-fonte);
+    color: var(--cor-preto);
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.titulo {
+    font-size: 2rem;
+    color: var(--cor-preto);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    background-color: var(--cor-modal);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: var(--cor-branco);
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    color: var(--cor-fonte);
+}
+
+.card p {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.moedas-recentes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.moeda-card {
+    background-color: var(--cor-modal);
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: var(--cor-branco);
+}
+
+.moeda-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.moeda-card h3 {
+    font-size: 1.2rem;
+    color: var(--cor-fonte);
+}
+
+.moeda-card p {
+    font-size: 0.9rem;
+}

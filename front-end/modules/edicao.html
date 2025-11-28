@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edição Usuário</title>
+    <link rel="stylesheet" href="../css/cabecalho.css">
+    <link rel="stylesheet" href="../css/edicao.css">
+    <script defer src="../js/edicao.js"></script>
+</head>
+<body>
+    <header>
+        <a href="/index.html"> <img src="../img/tiopatinhas.png" alt="" id="imagem-logo"> </a>
+        <nav>
+            <ul>
+                <li><a href="./edicao.html">Usuário</a></li>
+                <li><a href="./colecao.html">Coleção</a></li>
+                <li><a href="./dashboard.html">Dashboard</a></li>
+                <li><a href="./login.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="inputs">
+            <h2>Edição Usuário</h2>
+            <form action="">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+                <label for="login">Login</label>
+                <input type="text" id="login" name="login" required>
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" required>
+                <button type="submit">Gravar</button>
+            </form>
+        </div>
+        <p><button id="deletarUsuario" type="button">Excluir Usuário</button></p>
+    </main>
+</body>
+</html>

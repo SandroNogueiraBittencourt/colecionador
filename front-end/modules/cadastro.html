@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <script defer src="../js/cadastro.js"></script>
+</head>
+<body>
+    <header>
+        <img src="/img/tiopatinhas.png" alt="Logo" id="imgPrincipal">
+    </header>
+    <main>
+        <div class="inputs">
+            <h2>Cadastro</h2>
+            <form>
+                <input type="text" id="nome" name="name" placeholder="Nome" minlength="3" required> 
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
+                <input type="text" id="login" name="login" placeholder="Login" minlength="3" required>
+                <input type="password" id="senha" name="password" placeholder="Senha" minlength="3" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+        <p><a href="/modules/login.html" class="voltar">Voltar</a></p>
+    </main>
+    <footer>
+        <p>Desenvolvido por Milton e Sandro</p>
+    </footer>
+    <script src="/js/cadastro.js"></script>
+</body>
+</html>

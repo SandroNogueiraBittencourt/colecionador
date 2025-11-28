@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+:root {
+    --cor-fundo: #C6C6C6;
+    --cor-modal: rgba(0, 0, 0, 0.5);
+    --cor-sombra-modal: rgba(0, 0, 0, 0.6);
+    --cor-fonte: #03e9f4;
+    --cor-branco: #FFFFFF;
+    --cor-preto: #000000;
+    --fonte: "SUSE", system-ui;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte);
+}
+#imagem-logo {
+    width: 100px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--cor-fundo);
+    font-family: var(--fonte);
+    font-size: 16px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: var(--cor-sombra-modal);
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 45px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--cor-preto);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+nav ul li a:hover {
+    background-color: var(--cor-fonte);
+    color: var(--cor-preto);
+    transition: all 0.1s ease;
+}
+.principal {
+    display: none;
+    justify-content: center;
+}
+
+.formulario {
+    background-color: var(--cor-nav);
+    width: 750px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--cor-sombra-modal);
+    text-align: center;
+    margin-top: 20px;
+    background-color: var(--cor-modal);
+    
+}
+
+.formulario h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: var(--cor-modal);
+}
+
+#file-chosen {
+    display: inline-block;
+    margin-left: 10px;
+    color: var(--cor-modal);
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 0px;
+    border: none;
+    border-bottom: 1px solid var(--cor-branco);
+    background-color: transparent;
+    color: var(--cor-branco);
+    font-size: 14px;
+    outline: none;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 0px;
+    border: none;
+    border: 1px solid var(--cor-branco);
+    border-radius: 5px;
+    background-color: transparent;
+    color: var(--cor-branco);
+    font-size: 14px;
+}
+
+.form-group input[type="file"] {
+    display: none;
+}
+#nome-arquivo {
+    font-size: 15px;
+    padding-left: 20px;
+}
+.file-label {
+    display: inline-block;
+    background-color: var(--cor-fonte);
+    color: var();
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 7px;
+    transition: background-color 0.3s;
+}
+
+input::placeholder {
+    color: #FFFFFF;
+}
+
+textarea::placeholder {
+    color: var(--cor-branco);
+}
+
+.file-label:hover {
+    background-color: #0099cc;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.botao {
+    background-color: var(--cor-fonte);
+    color: var(--cor-modal);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 14px;
+    width: 38%;
+    margin-right: 25px;
+    margin-left: 25px;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #0099cc;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 60px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #f8f8f8;
+}
+
+.acao-button {
+    padding: 5px 30px;
+    margin: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid var(--cor-preto);
+    background-color: var(--cor-fundo);
+    color: var(--cor-nav);
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.acao-button:hover {
+    background-color: var(--cor-branco);
+}
+
+.titulo-colecao {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-fundo);
+    margin-top: 10rem;
+}
+
+.table-border {
+    border: solid var(--cor-preto) 2px;
+}
+
+
+---------------------------------------
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #f8f8f8;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #666;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+td {
+    font-size: 14px;
+    background-color: var(--cor-linha-secundaria);
+}
+
+tr:nth-child(even) td {
+    background-color: var(--cor-linha-principal);
+}
+
+.acao-button {
+    padding: 5px 30px;
+    margin: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid var(--cor-preto);
+    background-color: var(--cor-fundo);
+    color: var(--cor-nav);
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.acao-button:hover {
+    background-color: var(--cor-branco);
+}
+
+.titulo-colecao {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    background-color: var(--cor-fundo);
+}
+
+.table-border {
+    border: solid var(--cor-preto) 2px;
+}
+
+.exibir {
+text-align: right;
+margin: 0px 55px 0px 0px;
+}
+
+.exibir a {
+    padding: 5px 15px 5px 15px;
+    background: var(--cor-fonte);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    cursor: pointer;
+    font-size: 12px;
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap'); @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap'); 
+
+:root{ 
+    --cor-fundo: #C6C6C6; 
+    --cor-modal: rgba(0,0,0,0.5); 
+    --cor-sombra-modal: rgba(0,0,0,0.6); 
+    --cor-fonte: #03e9f4; 
+    --cor-branco: #FFFFFF; 
+    --cor-preto: #000000; 
+    --cor-linha-principal: #FFFAFA; 
+    --cor-linha-secundaria: #F5F5F5; 
+    --fonte: "SUSE", system-ui; 
+} 
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+body { 
+
+    background: var(--cor-fundo); 
+    font-family: var(--fonte); 
+    font-size: 16px; 
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, Arial, Helvetica, sans-serif;
+
+} 
+header{
+    display: flex;
+    flex-direction: row;
+    background: rgba(0,0,0,0.5);
+   
+}
+.imagem{
+    height: 100px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 8rem;
+    
+}
+
+.link {
+    text-decoration: none;
+    color: #000000;
+    padding: 1rem;
+}
+.link:hover{
+    background-color: #03e9f4;
+    color: black;
+    border-radius: 10px;
+    
+}

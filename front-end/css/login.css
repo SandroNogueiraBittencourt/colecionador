@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap'); 
+:root { 
+    --cor-fundo: #C6C6C6; 
+    --cor-modal: rgba(0,0,0,0.5); 
+    --cor-sombra-modal: rgba(0,0,0,0.6); 
+    --cor-fonte: #03e9f4; 
+    --cor-branco: #FFFFFF; 
+    --cor-preto: #000000; 
+    --cor-linha-principal: #FFFAFA; 
+    --cor-linha-secundaria: #F5F5F5; 
+    --fonte: "SUSE", system-ui; 
+}
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: var(--fonte);
+}
+html,body {
+    height:100%;
+}
+body {
+    display:flex;
+    flex-direction:column;
+    background:var(--cor-fundo);
+    font-size:16px;
+}
+header {
+    display:flex;
+    justify-content:center;
+    margin-top: 30px;
+}
+#imgPrincipal {
+    width:250px;
+}
+main {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    margin-top:60px;
+}
+.inputs {
+    display:flex;
+    flex-direction:column;
+    background-color:var(--cor-modal);
+    padding:30px 20px;
+    border-radius:13px;
+    box-shadow:0 10px 30px var(--cor-sombra-modal);
+    width:520px;
+    height: 320px;
+    margin-bottom:30px;
+}
+.inputs h2 {
+    color:var(--cor-branco);
+    font-size: 22px;
+}
+.inputs input {
+    width: 85%;
+    padding: 30px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid var(--cor-linha-principal);
+    background: none;
+    color: var(--cor-branco);
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.inputs input::placeholder {
+    color:var(--cor-branco);
+}
+.inputs button {
+    padding:8px;
+    border:none;
+    border-radius:5px;
+    background-color:var(--cor-fonte);
+    color:var(--cor-modal);
+    cursor:pointer;
+    font-size:16px;
+    margin-top:30px;
+    width: 440px;
+}
+.inputs button:hover {
+    background-color:#02cde1;
+}
+.criar-conta {
+    display:flex;
+    color:var(--cor-modal);
+    text-decoration:none;
+    cursor:pointer;
+    font-size:14px;
+    margin-top:5px;
+}
+footer {
+    display:flex;
+    justify-content:center;
+    color:#666;
+    padding-bottom: 20px;
+    font-size: 17px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/cabecalho.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <script src="../js/dashboard.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="/index.html">
+            <img class="imagem" src="../img/tiopatinhas.png" alt="Logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="./edicao.html">Usuário</a></li>
+                <li><a href="./colecao.html">Coleção</a></li>
+                <li><a href="./dashboard.html">Dashboard</a></li>
+                <li><a href="./login.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2 class="titulo">Dashboard</h2>
+            <div class="cards">
+                <!-- Card para quantidade de moedas -->
+                <div class="card card-moedas">
+                    <h3>Total de Moedas</h3>
+                    <p id="total-moedas">0</p>
+                </div>
+                <!-- Card para valor total das moedas -->
+                <div class="card card-valor">
+                    <h3>Valor Total da Coleção</h3>
+                    <p id="valor-total">R$ 0,00</p>
+                </div>
+            </div>
+            <h2 class="titulo">Moedas Recentemente Adicionadas</h2>
+            <div class="moedas-recentes" id="moedas-recentes">
+                <!-- As moedas serão inseridas dinamicamente -->
+            </div>
+        </div>
+    </main>
+</body>
+</html>
